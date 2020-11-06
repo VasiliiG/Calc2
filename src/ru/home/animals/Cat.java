@@ -59,8 +59,4 @@ public class Cat {
         return false;
     }
 
-    @Override
-    protected void finalize() throws Throwable {
-        System.out.println("Aaaaaaaa! ");
-    }
 }
